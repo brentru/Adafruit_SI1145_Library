@@ -34,7 +34,7 @@ jobs:
     - name: upload artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: Upload compiled filessss
+        name: Upload compiled filesssss
         path: |
             examples/*/build/*/*.hex
             examples/*/build/*/*.uf2
