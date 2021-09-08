@@ -10,4 +10,4 @@ jobs:
     - uses: jepler/actions-arduino-ci@main
       with:
         pretty-name: 'Adafruit SI1145 Arduino Library'
-        repo-token: {{ secrets.GH_REPO_TOKEN }}
+        repo-token: ${{ secrets.GH_REPO_TOKEN }}
