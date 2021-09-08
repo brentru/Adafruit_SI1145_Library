@@ -14,7 +14,6 @@ jobs:
     - uses: actions/checkout@v2
       with:
          repository: brentru/ci-arduino
-         ref: generate-uf2
          path: ci
 
     - name: pre-install
