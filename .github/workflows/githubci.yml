@@ -31,7 +31,7 @@ jobs:
         PRETTYNAME : "Adafruit SI1145 Arduino Library"
       run: bash ci/doxy_gen_and_deploy.sh
 
-    - name: upload artifacts
+    - name: upload artifactss
       uses: actions/upload-artifact@v2
       with:
         name: Upload compiled files
